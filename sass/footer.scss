@@ -1,0 +1,172 @@
+html {
+    font-family: "Encode Sans", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+small {
+    font-size: 80%;
+}
+
+img {
+  display: block;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+    padding: 3rem;
+    padding-top: 4rem;
+    background-color: #000;
+    color: #FFF;
+
+    .logo {
+        font-family: "Encode Sans", sans-serif;
+        font-weight: 800;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .logo:hover, img:hover {
+        text-decoration: none;
+    }
+
+    a {
+        color: inherit;
+        text-decoration: inherit;
+        background-color: transparent;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    ol, ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .items-start {
+        align-items: flex-start;
+    }
+
+    .self-start {
+        align-self: flex-start;
+    }
+
+    .justify-between {
+        justify-content: space-between;
+    }
+
+    .justify-evenly {
+        justify-content: space-evenly;
+    }
+
+    .font-bold {
+        font-weight: 700;
+    }
+
+    .text-4xl {
+        font-size: 2.25rem;
+    }
+
+    .text-lg {
+        font-size: 1.125rem;
+    }
+
+    .text-sm {
+        font-size: .875rem;
+    }
+
+    .text-gray-400 {
+        --text-opacity: 1;
+        color: #cbd5e0;
+        color: rgba(203,213,224,var(--text-opacity));
+    }
+
+    .my-2 {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .my-4 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .mt-10 {
+        margin-top: 2.5rem;
+    }
+
+    .mb-5 {
+        margin-bottom: 1.25rem;
+    }
+
+    .mt-8 {
+        margin-top: 2rem;
+    }
+
+    .mb-10 {
+        margin-bottom: 2.5rem;
+    }
+
+    .w-3 {
+        width: 0.75rem;
+    }
+
+    .w-6 {
+        width: 1.5rem;
+    }
+
+    .w-full {
+        width: 100%;
+    }
+
+    @media (min-width: 768px) {
+        .md\:flex-row {
+            flex-direction: row;
+        }
+
+        .md\:flex-row-reverse {
+            flex-direction: row-reverse;
+        }
+
+        .md\:text-center {
+            text-align: center;
+        }
+
+        .md\:self-center {
+            align-self: center;
+        }
+
+        .md\:mt-0 {
+            margin-top: 0;
+        }
+
+        .md\:mb-0 {
+            margin-bottom: 0;
+        }
+
+        .md\:mr-24 {
+            margin-right: 6rem;
+        }
+
+        .md\:self-start {
+            align-self: flex-start;
+        }
+    }
+}

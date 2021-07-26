@@ -1,0 +1,199 @@
+{% import "_macros.html" as macros %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="london, art">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta itemprop="name" content="{{ config.extra.meta_title }}">
+    <meta itemprop="description" content="{{ config.extra.meta_description }}">
+
+    <meta property="og:url" content="https://www.theleaf.london">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ config.extra.meta_title }}">
+    <meta property="og:description" content="{{ config.extra.meta_description }}">
+
+    <meta name="twitter:card"        content="summary_large_image">
+    <meta name="twitter:site"        content="@londoneaf">
+    <meta name="twitter:creator"     content="@londoneaf">
+    <meta name="twitter:title"       content="{{ config.extra.meta_title }}">
+    <meta name="twitter:description" content="{{ config.extra.meta_description }}">
+
+    <title>{% block title %}{{ config.title }}{% endblock title %}</title>
+
+    {% include "_variables.html" %}
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans:400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/normalize.css">
+    <link rel="stylesheet" href="{{ get_url(path="juice.css") }}">
+    <link rel="stylesheet" href="{{ get_url(path="index.css") }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    {% block head %}
+    {% endblock head %}
+</head>
+
+<body>
+    {% block header %}
+
+    <header class="pos-absolute" style="background-color: transparent">
+        {{ macros::render_header() }}
+    </header>
+
+    <div class="hero">
+        {% block hero %}
+        <section class="text-center">
+            <h1 class="heading-text">
+                Welcome to the London Education & Art Foundation
+            </h1>
+            <h3 class="title-text">
+                Championing emerging artists, tackling education inequality & promoting the culture of London.
+            </h3>
+        </section>
+        <img class="hero-img" src="{{ get_url(path="home.jpg") }}" alt="home.jpg">
+
+        <div class="explore-more text"
+            onclick="document.getElementById('features').scrollIntoView({behavior: 'smooth'})">
+            Explore More ⇩
+        </div>
+        <style>
+            .hero section {
+                padding: 0 5rem;
+            }
+            @media screen and (max-width: 768px) {
+                .hero section {
+                    padding: 0 2rem;
+                }
+
+                .hero-image {
+                    display: none
+                }
+            }
+        </style>
+        {% endblock hero %}
+    </div>
+
+    <div class="statsBlock">
+        <div class="statBlock">
+            <p class="statBlockValue text">100+</p>
+            <p class="statBlockDesc text">Successful shows</p>
+            <a class="statBlockLink" href="/gallery" target="">
+                <span class="statBlockLinkText text">
+                    Explore our gallery
+                </span>
+                <span class="statBlockLinkIcon">
+                    <img src="/right-arrow.svg" alt="RightArrow">
+                </span>
+            </a>
+        </div>
+        <div class="statBlock">
+            <p class="statBlockValue text">20+</p>
+            <p class="statBlockDesc text">Schools impacted</p>
+            <a class="statBlockLink" href="/education" target="">
+                <span class="statBlockLinkText text">
+                    Find out more
+                </span>
+                <span class="statBlockLinkIcon">
+                    <img src="/right-arrow.svg" alt="RightArrow">
+                </span>
+            </a>
+        </div>
+        <div class="statBlock">
+            <p class="statBlockValue text">10k+</p>
+            <p class="statBlockDesc text">Visitors a year</p>
+            <a class="statBlockLink" href="/membership" target="">
+                <span class="statBlockLinkText text">
+                    Join us now
+                </span>
+                <span class="statBlockLinkIcon">
+                    <img src="/right-arrow.svg" alt="RightArrow">
+                </span>
+            </a>
+        </div>
+    </div>
+
+    {% endblock header %}
+
+    <main>
+        {% block toc %}
+        {% if section.toc %}
+        {% set toc = section.toc %}
+        {% elif page.toc %}
+        {% set toc = page.toc %}
+        {% endif %}
+        {% if toc %}
+        <div class="toc">
+            <div class="toc-sticky">
+                {% for h in toc %}
+                <div class="toc-item">
+                    <a class="subtext" href="{{h.permalink | safe}}">{{ h.title }}</a>
+                </div>
+                {% if h.children %}
+                {% for h2 in h.children %}
+                <div class="toc-item-child">
+                    <a class="subtext" href="{{h2.permalink | safe}}"><small>- {{ h2.title }}</small></a>
+                </div>
+                {% endfor %}
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+        {% endblock toc %}
+
+        <div class="content text">
+            {% block content %}
+            <div id="features" class="heading-text">Overview</div>
+            {{ section.content | safe }}
+            {% endblock content %}
+        </div>
+
+        {% block sidebar %}
+        {% endblock %}
+    </main>
+
+    {% block footer %}
+    <iframe id="footer" src="{{ get_url(path="footer.html") }}"
+            style="display:block;width:100%;border:none;"></iframe>
+    <script>
+        window.onmessage = e => {
+            e.data.hasOwnProperty("frameHeight") && (document.getElementById("footer").style.height = `${e.data.frameHeight}px`)
+        }
+    </script>
+    {% endblock footer %}
+</body>
+<script>
+    function highlightNav(heading) {
+        let pathname = location.pathname;
+        document.querySelectorAll(".toc a").forEach((item) => {
+            item.classList.remove("active");
+        });
+        document.querySelector(".toc a[href$='" + pathname + "#" + heading + "']").classList.add("active");
+    }
+
+    let currentHeading = "";
+    window.onscroll = function () {
+        let h = document.querySelectorAll("h1,h2,h3,h4,h5,h6");
+        let elementArr = [];
+
+        h.forEach(item => {
+            if (item.id !== "") {
+                elementArr[item.id] = item.getBoundingClientRect().top;
+            }
+        });
+        elementArr.sort();
+        for (let key in elementArr) {
+            if (!elementArr.hasOwnProperty(key)) {
+                continue;
+            }
+            if (elementArr[key] > 0 && elementArr[key] < 300) {
+                if (currentHeading !== key) {
+                    highlightNav(key);
+                    currentHeading = key;
+                }
+                break;
+            }
+        }
+    }
+</script>
+
+</html>

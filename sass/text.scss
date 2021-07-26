@@ -1,0 +1,56 @@
+.logo {
+  font-family: "Encode Sans", serif;
+  font-weight: 800;
+  font-size: 32px;
+  color: var(--primary-text-color);
+  display: flex;
+  align-items: center;
+  margin: 0 40px;
+
+  img {
+    width: 60px;
+    margin: 0 25px;
+  }
+}
+
+.heading-text {
+  font-family: "Encode Sans", sans-serif;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px 0 55px 0;
+  color: var(--primary-text-color);
+}
+
+h1, .title-text {
+  font-family: "Encode Sans", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  color: var(--primary-text-color);
+  border-left: var(--primary-color) 8px solid;
+  padding-left: 10px;
+}
+
+h2, .subtitle-text {
+  font-family: "Encode Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--primary-text-color);
+}
+
+.text {
+  font-family: "Encode Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.2px;
+  color: var(--primary-text-color);
+}
+
+.subtext {
+  font-family: "Encode Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.1px;
+}

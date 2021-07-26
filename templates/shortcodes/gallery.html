@@ -1,0 +1,11 @@
+<div class="gallery">
+    {% for asset in page.assets -%}
+        {%- if asset is matching("[.](jpg|png)$") -%}
+            <div class="gallery_img">
+                <a href="{{ get_url(path=asset) }}" target="_blank">
+                    <img loading="lazy" src="{{ get_url(path=asset) }}"/>
+                </a>
+            </div>
+        {%- endif %}
+    {%- endfor %}
+</div>
