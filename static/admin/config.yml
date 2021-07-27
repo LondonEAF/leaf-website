@@ -1,6 +1,7 @@
 backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
+  squash_merges: true
 
 publish_mode: editorial_workflow
 
@@ -8,8 +9,8 @@ publish_mode: editorial_workflow
 media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
 
-site_url: https://londoneaf.netlify.app
-logo_url: https://londoneaf.netlify.app/logo_leaf.png
+site_url: https://theleaf.london
+logo_url: https://theleaf.london/logo_leaf.png
 
 show_preview_links: true
 search: true
@@ -25,5 +26,10 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - label: "Featured Image"
+        name: "thumbnail"
+        widget: "image"
+        media_library:
+          config:
+            max_file_size: 512000
       - {label: "Body", name: "body", widget: "markdown"}
