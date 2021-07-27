@@ -6,26 +6,24 @@
     <meta charset="UTF-8">
     <meta name="keywords" content="london, art">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta itemprop="name" content="{{ config.extra.meta_title }}">
-    <meta itemprop="description" content="{{ config.extra.meta_description }}">
 
-    <meta property="og:url" content="https://www.theleaf.london">
+    <meta property="og:url" content="https://theleaf.london">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="{{ config.extra.meta_title }}">
+    <meta property="og:title" content="{{ config.title }}">
     <meta property="og:description" content="{{ config.extra.meta_description }}">
 
     <meta name="twitter:card"        content="summary_large_image">
     <meta name="twitter:site"        content="@londoneaf">
     <meta name="twitter:creator"     content="@londoneaf">
-    <meta name="twitter:title"       content="{{ config.extra.meta_title }}">
+    <meta name="twitter:title"       content="{{ config.title }}">
     <meta name="twitter:description" content="{{ config.extra.meta_description }}">
 
     <title>{% block title %}{{ config.title }}{% endblock title %}</title>
 
     {% include "_variables.html" %}
-    <link href="https://fonts.googleapis.com/css?family=Encode+Sans:400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Encode+Sans:400,500,600,700,800,900&display=swap">
     <link rel="stylesheet" href="/normalize.css">
-    <link rel="stylesheet" href="{{ get_url(path="juice.css") }}">
+    <link rel="stylesheet" href="{{ get_url(path="base.css") }}">
     <link rel="stylesheet" href="{{ get_url(path="index.css") }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -46,7 +44,7 @@
         {% block hero %}
         <section class="text-center">
             <h1 class="heading-text">
-                Welcome to the London Education & Art Foundation
+                {{ config.extra.meta_description }}
             </h1>
             <h3 class="title-text">
                 Championing emerging artists, tackling education inequality & promoting the culture of London.

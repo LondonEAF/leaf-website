@@ -4,7 +4,7 @@ description = "Privacy Policy"
 weight = 8
 +++
 
-London Education & Art Foundation, ("we",or "us") operates the website **[https://www.theleaf.london](/)** (collectively, the “Service” or “Products”).
+London Education & Art Foundation, ("we",or "us") operates the website **[https://theleaf.london](/)** (collectively, the “Service” or “Products”).
 We believe that your privacy is a fundamental right. This page informs you of our policies and practices regarding the collection, use and disclosure of information which personally identifies you ("Personal Information") when you use our Service.
 
 # Information collection

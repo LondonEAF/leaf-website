@@ -2,7 +2,6 @@ base_url = "/"
 title = "London Education & Art Foundation"
 compile_sass = true
 build_search_index = false
-theme = "juice"
 ignored_content = ["*.kate-swp"]
 
 [markdown]
@@ -10,9 +9,13 @@ highlight_code = true
 highlight_theme = "inspired-github"
 
 [extra]
-juice_logo_name = "London Education & Art Foundation"
-juice_logo_path = "logo_leaf.png"
-juice_extra_menu = []
-repository_url = "https://github.com/Sporif/londoneaf"
-meta_title = "London Education & Art Foundation"
 meta_description = "Welcome to the London Education & Art Foundation"
+logo_path = "logo_leaf.png"
+nav_menu = [
+     { title = "Home", link = "/"},
+     { title = "About Us", link = "/about/"},
+     { title = "Events", link = "/events/"},
+     { title = "Gallery", link = "/gallery/"},
+     { title = "Membership", link = "/membership/"},
+     { title = "Donate", link = "/donate/"},
+]

@@ -3,19 +3,18 @@
 <div>
     <a class="header_logo" href="{{ section.permalink }}">
         <div class="logo">
-            <img src="{{ get_url(path=config.extra.juice_logo_path) }}" alt="logo">
-            {{ config.extra.juice_logo_name }}
+            <img src="{{ get_url(path=config.extra.logo_path) }}" alt="logo">
+            {{ config.title }}
         </div>
     </a>
 
     <div class="topnav">
         <div id="myLinks">
-            <a href="/">Home</a>
-            <a href="/about/">About Us</a>
-            <a href="/events/">Events</a>
-            <a href="/gallery/">Gallery</a>
-            <a href="/membership/">Membership</a>
-            <a href="/donate/">Donate</a>
+            {% if config.extra.nav_menu %}
+                {% for menu in config.extra.nav_menu %}
+                <a href="{{ menu.link }}">{{ menu.title }}</a>
+                {% endfor %}
+            {% endif %}
         </div>
         <a href="javascript:void(0);" class="icon" onclick="topNavClick()">
             <i class="fa fa-bars"></i>
@@ -24,30 +23,24 @@
 </div>
 
 <nav>
-    <a class="nav-item subtitle-text" href="/">Home</a>
-    <a class="nav-item subtitle-text" href="/about/">About Us</a>
-    <a class="nav-item subtitle-text" href="/events/">Events</a>
-    <a class="nav-item subtitle-text" href="/gallery/">Gallery</a>
-    <a class="nav-item subtitle-text" href="/membership/">Membership</a>
-    <a class="nav-item subtitle-text" href="/donate/">Donate</a>
-    {% if config.extra.juice_extra_menu %}
-        {% for menu in config.extra.juice_extra_menu %}
+    {% if config.extra.nav_menu %}
+        {% for menu in config.extra.nav_menu %}
         <a class="nav-item subtitle-text" href="{{ menu.link }}">{{ menu.title }}</a>
         {% endfor %}
     {% endif %}
 </nav>
 
 <script>
-function topNavClick() {
-  var links = document.getElementById("myLinks");
-  var topnav = links.parentElement;
-  if (links.style.display === "block") {
-    links.style.display = "none";
-    topnav.classList.remove("topnav_active");
-  } else {
-    links.style.display = "block"
-    topnav.classList.add("topnav_active");
-  }
-}
+    function topNavClick() {
+    var links = document.getElementById("myLinks");
+    var topnav = links.parentElement;
+    if (links.style.display === "block") {
+        links.style.display = "none";
+        topnav.classList.remove("topnav_active");
+    } else {
+        links.style.display = "block"
+        topnav.classList.add("topnav_active");
+    }
+    }
 </script>
 {% endmacro render_header %}

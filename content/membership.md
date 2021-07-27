@@ -52,7 +52,7 @@ Join our ever-growing community of passionate art enthusiasts, all with a mind f
                 <input type="text" id="email" name="email">
             </div>
         </div>
-        <div data-netlify-recaptcha="true"></div>
+        <div id="member_individual_recaptcha" data-netlify-recaptcha="true"></div>
         <p>
             <button type="submit">Apply Now</button>
         </p>
@@ -103,7 +103,7 @@ Join our ever-growing community of passionate art enthusiasts, all with a mind f
                 <input type="text" id="email" name="email">
             </div>
         </div>
-        <div data-netlify-recaptcha="true"></div>
+        <div id="member_company_recaptcha" data-netlify-recaptcha="true"></div>
         <p>
             <button type="submit">Apply Now</button>
         </p>
@@ -120,6 +120,6 @@ Join our ever-growing community of passionate art enthusiasts, all with a mind f
 
 If you have any questions about your application please get in touch with our team and we'll be happy to help.
 <p>
-    <button><a href="mailto:membership@theleaf">EMAIL</a></button>
+    <button><a href="mailto:membership@theleaf.london">EMAIL</a></button>
 </p>
 </div>
