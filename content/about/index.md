@@ -12,6 +12,7 @@ weight = 0
 <div class="img_header">
 
 ## **Prof. Paul Bhangal**
+**Chairman of Trustees**  
 **International Professor of Enterprise + Senior Management Advisor**
 </div>
 
@@ -27,6 +28,7 @@ Role: Chairman of Trustees, Head of Partnerships and Memberships.
 <div class="img_header">
 
 ## **Andrew Lamb**
+**Trustee**  
 **FAIA, FCIPD, FRSA - Expert International Accountant and Legal Advisor**
 </div>
 
@@ -41,7 +43,8 @@ Role: Trustee, Governance, Compliance and Financial Management.
 
 <div class="img_header">
 
-## **Daniella Clayton (Dee Degard)**
+## **Dee Degard**
+**Trustee**  
 **International Artist, MA (Edin), Phd Research Fine Art**
 </div>
 
