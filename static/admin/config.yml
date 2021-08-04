@@ -30,7 +30,7 @@ collections:
       - label: "Extra"
         name: extra
         widget: object
-        summary: "{{fields.name}}: {{fields.type}}"
+        summary: "Event Type: {{fields.type}}"
         fields:
           - { label: "Event Type", name: type, widget: string }
           - label: "Featured Image"
