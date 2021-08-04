@@ -9,7 +9,42 @@
 </header>
 {% endblock header %}
 
+{% block toc %}
+{% endblock toc %}
+
 {% block content %}
 <div class="heading-text">{{ section.description }}</div>
+<div class="list-posts">
+    {% for page in paginator.pages %}
+        <div>
+            <div class="img_container">
+                {% if page.extra.thumbnail %}
+                    <img loading="lazy" src="{{ get_url(path=page.extra.thumbnail) }}" />
+                {% endif %}
+                <h2 class="post__title img_header">
+                    <strong><a href="{{ page.permalink }}">{{ page.title }} - {{ page.date }}</a></strong>
+                </h2>
+                {% if page.extra.type %}
+                    <h2 class="post__title img_header">
+                        {{ page.extra.type }}
+                    </h2>
+                {% endif %}
+                <div class="img_text post__summary">
+                {{ page.summary | safe }}
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+    <nav class="pagination">
+        <button class="button post__first"><a href="{{ paginator.first | safe }}">First</a></button>
+        <button class="button post__last"><a href="{{ paginator.last | safe }}">Last</a></button>
+        {% if paginator.previous %}
+            <button class="button post__prev"><a class="previous" href="{{ paginator.previous }}">‹ Previous</a></button>
+        {% endif %}
+        {% if paginator.next %}
+            <button class="button post__next"><a class="next" href="{{ paginator.next }}">Next ›</a></button>
+        {% endif %}
+    </nav>
+</div>
 {{ section.content | safe }}
 {% endblock content %}

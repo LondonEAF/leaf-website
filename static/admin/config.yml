@@ -16,20 +16,40 @@ show_preview_links: true
 search: true
 
 collections:
-  - name: "events" # Used in routes, e.g., /admin/collections/blog
-    label: "Events" # Used in the UI
-    folder: "contents/events" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    preview_path: "events/{{year}}/{{month}}/{{filename}}"
-    fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
+  - name: "events"
+    label: "Events"
+    folder: "content/events"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    preview_path: "events/{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "event" }
+      - { label: "Type", name: "type", widget: "string" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
       - label: "Featured Image"
         name: "thumbnail"
         widget: "image"
         media_library:
           config:
             max_file_size: 512000
-      - {label: "Body", name: "body", widget: "markdown"}
+      - { label: "Body", name: "body", widget: "markdown" }
+
+collections:
+  - name: "blog"
+    label: "Blog"
+    folder: "content/blog"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    preview_path: "blog/{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - label: "Featured Image"
+        name: "thumbnail"
+        widget: "image"
+        media_library:
+          config:
+            max_file_size: 512000
+      - { label: "Body", name: "body", widget: "markdown" }

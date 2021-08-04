@@ -176,6 +176,7 @@ main .toc-item a.active, main .toc-item-child a.active {
 }
 
 .color_block button {
+    background-color: transparent;
     border: #FFF 1px solid;
 }
 
@@ -217,7 +218,7 @@ main .toc-item a.active, main .toc-item-child a.active {
 
 // About page
 .img_container {
-    margin: 5px 10px 25px 0;
+    margin: 5px 10px 50px 0;
 }
 
 .img_container img {
@@ -236,6 +237,11 @@ main .toc-item a.active, main .toc-item-child a.active {
     background-color: var(--secondary-text-color);
     color: var(--primary-text-color);
     text-decoration: none;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
 }
 
 // Forms
@@ -313,9 +319,13 @@ main .toc-item a.active, main .toc-item-child a.active {
     text-transform: uppercase;
     margin-top: 6px;
     padding: 6px 18px;
-    background-color: transparent;
+    background-color: var(--primary-text-color);
     border: #000 1px solid;
     color: #000;
+}
+
+.button > a {
+    text-decoration: none;
 }
 
 .button:hover, button:hover, input[type="submit"]:hover {
