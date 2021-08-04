@@ -32,13 +32,13 @@ collections:
         widget: object
         summary: "{{fields.name}}: {{fields.type}}"
         fields:
-            - { label: "Event Type", name: type, widget: string }
-            - label: "Featured Image"
-                name: thumbnail
-                widget: image
-                media_library:
-                config:
-                    max_file_size: 512000
+          - { label: "Event Type", name: type, widget: string }
+          - label: "Featured Image"
+            name: thumbnail
+            widget: image
+            media_library:
+              config:
+                max_file_size: 512000
 
       - { label: "Body", name: "body", widget: "markdown" }
 
