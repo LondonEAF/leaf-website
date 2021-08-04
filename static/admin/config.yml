@@ -20,6 +20,8 @@ collections:
     label: "Events"
     folder: "content/events"
     create: true
+    delete: false
+    format: toml-frontmatter
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     preview_path: "events/{{slug}}"
     fields:
@@ -38,6 +40,8 @@ collections:
     label: "Blog"
     folder: "content/blog"
     create: true
+    delete: false
+    format: toml-frontmatter
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     preview_path: "blog/{{slug}}"
     fields:
