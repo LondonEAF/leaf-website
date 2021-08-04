@@ -35,7 +35,6 @@ collections:
             max_file_size: 512000
       - { label: "Body", name: "body", widget: "markdown" }
 
-collections:
   - name: "blog"
     label: "Blog"
     folder: "content/blog"
