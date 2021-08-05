@@ -1,7 +1,6 @@
 +++
 title = "Queen's Gallery"
 description = "The Queen's Gallery Exhibitions"
-slug = "2021-07-19-queens-gallery"
 extra.thumbnail = "queens_gallery.jpg"
 extra.type = "London Event"
 +++
