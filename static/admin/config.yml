@@ -27,6 +27,7 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Event Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", time_format: false }
+      - { label: "Slug", name: "slug", widget: "hidden", default: "{{slug}}" }
       - label: "Extra"
         name: extra
         widget: object
