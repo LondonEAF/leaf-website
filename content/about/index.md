@@ -53,7 +53,23 @@ Degard is a pioneering British 'Painter of Auras', writer, researcher, curator a
 Role: Trustee, Head of Media and Events.
 </div>
 
----
+<div>
+
+# **Ambassadors of LEAF**
+
+<div class="img_container">
+<!-- {{ load_image(path="Sophie.jpg")}} -->
+
+<div class="img_header">
+
+## **Miss Sophie Rogers**
+**Ambassador**  
+**Oxford Graduate in Classics**
+</div>
+
+Sophie is a recent Oxford graduate of Classics. Having studied at Oxford for four years, she specialised in Greek and Roman art and archaeology, and has attended seminars, workshops, and focus groups on artwork from antiquity at the Ashmolean Museum, the British Museum and the British Academy.
+Sophie also has experience working in marketing and advertising and has worked as a gallery invigilator at galleries around London.
+</div>
 
 <div>
 
