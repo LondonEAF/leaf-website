@@ -53,12 +53,10 @@ Degard is a pioneering British 'Painter of Auras', writer, researcher, curator a
 Role: Trustee, Head of Media and Events.
 </div>
 
-<div>
-
-# **Ambassadors of LEAF**
+---
 
 <div class="img_container">
-<!-- {{ load_image(path="Sophie.jpg")}} -->
+{{ load_image(path="Sophie.jpg")}}
 
 <div class="img_header">
 
@@ -70,6 +68,31 @@ Role: Trustee, Head of Media and Events.
 Sophie is a recent Oxford graduate of Classics. Having studied at Oxford for four years, she specialised in Greek and Roman art and archaeology, and has attended seminars, workshops, and focus groups on artwork from antiquity at the Ashmolean Museum, the British Museum and the British Academy.
 Sophie also has experience working in marketing and advertising and has worked as a gallery invigilator at galleries around London.
 </div>
+
+<div class="img_container">
+{{ load_image(path="Ayumi.jpg")}}
+
+<div class="img_header">
+
+## **Ayumi Saga**
+**Graphic Designer**  
+</div>
+
+Ayumi has a Masters degree is Fashion Design from Japan followed by a further 5 years’ experience as a designer. She has developed an in-depth knowledge of Adobe Creative Suite and trends prepared colour boards. Ayumi continues to be part of the L.E.A.F. team and assisting in the design of materials that are required from time to time. Ayumi is also fluent in Japanese and enjoys cycling to stay fit in her spare time.
+</div>
+
+<div class="img_container">
+{{ load_image(path="Vineta.jpg")}}
+
+<div class="img_header">
+
+## **Vineta Kravale**
+**Administration Support**  
+</div>
+
+Vineta is based in London and part of the administration support for the foundation. She is a certified neurofeedback specialist and her passion is working with children and the youth. She has successfully helped many kids and adults to discover their potential through the brain training. She understands and appreciates the arts as a creative form and its mind healing benefits. Most recently Vineta has used her creative skills and wrote a motivational book for young children which has been supported by an artist illustrator in Sweden.  
+</div>
+
 
 <div>
 
@@ -105,6 +128,9 @@ Sophie also has experience working in marketing and advertising and has worked a
 </div>
 
 <div>
+
+
+
 
 # **Logo**
 {{ load_image(path="logo_leaf_big.png")}}
