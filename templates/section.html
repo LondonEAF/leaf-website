@@ -19,10 +19,14 @@
         <div>
             <div class="img_container">
                 {% if page.extra.thumbnail %}
-                    <img loading="lazy" src="{{ get_url(path=page.extra.thumbnail) }}" />
+                {% set image = resize_image(path=page.extra.thumbnail, width=250, height=150, op="fill") %}
+                    <img loading="lazy" src="{{ image.url }}" />
                 {% endif %}
                 <h2 class="post__title img_header">
-                    <strong><a href="{{ page.permalink }}">{{ page.title }} - {{ page.date }}</a></strong>
+                    <strong><a href="{{ page.permalink }}">{{ page.title }}</a></strong>
+                </h2>
+                <h2 class="post__title img_header">
+                    {{ page.date }}
                 </h2>
                 {% if page.extra.type %}
                     <h2 class="post__title img_header">
