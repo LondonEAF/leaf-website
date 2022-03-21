@@ -14,6 +14,7 @@ logo_path = "logo_leaf.png"
 nav_menu = [
      { title = "Home", link = "/"},
      { title = "About Us", link = "/about/"},
+     { title = "Blog", link = "/blog/"},
      { title = "Events", link = "/events/"},
      { title = "Gallery", link = "/gallery/"},
      { title = "Membership", link = "/membership/"},
