@@ -1,6 +1,5 @@
 +++
 title = "An introduction to LEAF, with a talk from government official the Rt Hon Simon Clarke MP"
-description = "An introduction to LEAF, with a talk from government official the Rt Hon Simon Clarke MP"
 [extra]
 type = "LEAF Event"
 thumbnail = "events/2022-03-01-intro-simon-clarke/thumbnail.jpg"

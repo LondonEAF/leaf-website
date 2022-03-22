@@ -1,6 +1,5 @@
 +++
 title = "An evening of wine and conversation with Daniel Korski CBE"
-description = "An evening of wine and conversation with Daniel Korski CBE"
 [extra]
 type = "LEAF Event"
 thumbnail = "events/2022-01-26-evening-daniel-korski/thumbnail.jpg"

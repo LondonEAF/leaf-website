@@ -1,6 +1,5 @@
 +++
 title = "The Queen's Gallery"
-description = "The Queen's Gallery Exhibitions"
 [extra]
 type = "London Event"
 thumbnail = "events/2021-07-19-queens-gallery/thumbnail.jpg"
