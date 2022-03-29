@@ -9,6 +9,7 @@ highlight_code = true
 highlight_theme = "inspired-github"
 
 [extra]
+live_base_url = "https://theleaf.london"
 meta_description = "Championing emerging artists, tackling education inequality & promoting the culture of London."
 logo_path = "logo_leaf.png"
 nav_menu = [
