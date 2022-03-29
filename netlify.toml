@@ -8,3 +8,10 @@ ZOLA_VERSION = "0.15.3"
 
 [context.deploy-preview]
 command = "zola build --base-url $DEPLOY_PRIME_URL"
+
+# Redirect default Netlify subdomain to primary domain
+[[redirects]]
+  from = "https://londoneaf.netlify.com/*"
+  to = "https://theleaf.london/:splat"
+  status = 301
+  force = false
