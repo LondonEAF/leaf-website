@@ -12,6 +12,6 @@ command = "zola build --base-url $DEPLOY_PRIME_URL"
 # Redirect default Netlify subdomain to primary domain
 [[redirects]]
   from = "https://londoneaf.netlify.app/*"
-  to = "https://theleaf.london"
+  to = "https://theleaf.london/:splat"
   status = 301
   force = true
