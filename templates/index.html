@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="{{ get_url(path="index.css") }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js" defer></script>
 
     {% block head %}
     {% endblock head %}
@@ -44,7 +44,7 @@
                 Championing emerging artists, tackling education inequality & promoting the culture of London.
             </h3>
         </section>
-        <img class="hero-img" src="{{ get_url(path="home.jpg") }}" alt="home.jpg">
+        <img class="hero-img" loading="lazy" src="{{ get_url(path="home.jpg") }}" alt="home.jpg">
 
         <div class="explore-more text"
             onclick="document.getElementById('features').scrollIntoView({behavior: 'smooth'})">
