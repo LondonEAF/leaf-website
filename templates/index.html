@@ -4,13 +4,14 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="keywords" content="london, art">
+    <meta name="keywords" content="london, education, art, foundation">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <meta property="og:url" content="https://theleaf.london">
+    <meta property="og:url" content="https://theleaf.london/">
     <meta property="og:type" content="website">
     <meta property="og:title" content="{{ config.title }}">
     <meta property="og:description" content="{{ config.extra.meta_description }}">
+    <meta name="description" content="{{ config.extra.meta_description }}">
 
     <title>{% block title %}{{ config.title }}{% endblock title %}</title>
 
@@ -38,10 +39,10 @@
         {% block hero %}
         <section class="text-center">
             <h1 class="heading-text">
-                {{ config.extra.meta_description }}
+                Welcome to the London Education & Art Foundation
             </h1>
             <h2 class="title-text">
-                Championing emerging artists, tackling education inequality & promoting the culture of London.
+               {{ config.extra.meta_description }}
             </h2>
         </section>
         <img class="hero-img" src="{{ get_url(path="home.jpg") }}" alt="home.jpg">
