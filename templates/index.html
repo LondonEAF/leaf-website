@@ -44,7 +44,7 @@
                 Championing emerging artists, tackling education inequality & promoting the culture of London.
             </h3>
         </section>
-        <img class="hero-img" loading="lazy" src="{{ get_url(path="home.jpg") }}" alt="home.jpg">
+        <img class="hero-img" src="{{ get_url(path="home.jpg") }}" alt="home.jpg">
 
         <div class="explore-more text"
             onclick="document.getElementById('features').scrollIntoView({behavior: 'smooth'})">
@@ -147,7 +147,7 @@
     </main>
 
     {% block footer %}
-    <iframe id="footer" src="{{ get_url(path="footer.html") }}"
+    <iframe id="footer" title="Footer" src="{{ get_url(path="footer.html") }}"
             style="display:block;width:100%;border:none;"></iframe>
     <script>
         window.onmessage = e => {
