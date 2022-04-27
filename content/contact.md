@@ -9,9 +9,9 @@ weight = 7
 Got a question? We'd love to hear from you.  
 Send us a message and we'll respond as soon as possible.
 
-General Enquiries **<info@theleaf.london>** | 077 8977 8935
+General Enquiries **<info@theleaf.london>** | 079 1509 2442
 
-Membership Office: **<membership@theleaf.london>** | 077 8977 8935
+Membership Office: **<membership@theleaf.london>** | 079 1509 2442
 
 # **Find Us**
 
