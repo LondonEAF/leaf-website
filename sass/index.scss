@@ -238,6 +238,10 @@ main .toc-item a.active, main .toc-item-child a.active {
     text-decoration: none;
 }
 
+.img_container ul {
+    float: left;
+}
+
 .pagination {
     display: flex;
     justify-content: center;

@@ -72,12 +72,45 @@ Sophie also has experience working in marketing and advertising and has worked a
 </div>
 
 <div class="img_container">
+{{ load_image(path="Ahmed.jpg")}}
+
+<div class="img_header">
+
+## **Ahmed Ibrahim**
+**Ambassador**
+</div>
+
+With more than 10 years of experience in the field of management and business, Ahmed has contributed in building professional teams, and developing strategies in one of the largest companies the Middle East. His interests relate to international and Islamic culture and the arts, and is looking forward to working with professional partners between overseas organisations and the LEAF Foundation.
+He is also a member of several institutions including:
+- The Royal united services institute (RUSI)
+- The Royal Institute of International Affairs (Chatham House)
+- The British academy of management
+- The Institute of Directors (IoD)
+- The Chartered Management Institute (CMI)
+</div>
+
+<div class="img_container">
+{{ load_image(path="Emilia.jpg")}}
+
+<div class="img_header">
+
+## **Emilia Sandoiu**
+**Ambassador**
+</div>
+
+With over 13 years of experience in sales, business and NLP, Emilia has provided high-level strategies for team building and management, excellent customer service and sales enhancement for UK enterprises and international multi-level marketing organisations.
+She is proficient in NLP and working with multicultural communities and has held self-development and mentoring workshops in various parts of London.
+Emilia is on the Governing and Advisory Board of London secondary schools to encourage and ensure children's learning and development.
+Her interests are in the areas of Arts and self-development with the aim to support individuals and sole entrepreneurs into their personal and business development journey.
+</div>
+
+<div class="img_container">
 {{ load_image(path="Ayumi.jpg")}}
 
 <div class="img_header">
 
 ## **Ayumi Saga**
-**Graphic Designer**  
+**Graphic Designer**
 </div>
 
 Ayumi has a Masters degree is Fashion Design from Japan followed by a further 5 years’ experience as a designer. She has developed an in-depth knowledge of Adobe Creative Suite and trends prepared colour boards. Ayumi continues to be part of the L.E.A.F. team and assisting in the design of materials that are required from time to time. Ayumi is also fluent in Japanese and enjoys cycling to stay fit in her spare time.
@@ -89,7 +122,7 @@ Ayumi has a Masters degree is Fashion Design from Japan followed by a further 5 
 <div class="img_header">
 
 ## **Vineta Kravale**
-**Administration Support**  
+**Administration Support**
 </div>
 
 Vineta is based in London and part of the administration support for the foundation. She is a certified neurofeedback specialist and her passion is working with children and the youth. She has successfully helped many kids and adults to discover their potential through the brain training. She understands and appreciates the arts as a creative form and its mind healing benefits. Most recently Vineta has used her creative skills and wrote a motivational book for young children which has been supported by an artist illustrator in Sweden.  
