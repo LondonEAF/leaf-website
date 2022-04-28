@@ -52,9 +52,7 @@ Role: Trustee, Governance, Compliance and Financial Management.
 
 Degard is a pioneering British 'Painter of Auras', writer, researcher, curator and founder of the genre Contemporary Visionary art. Degard has exhibited extensively in the UK and internationally: The Royal College of Art, Museum Alzubair, Oman, in New York, London and at Saatchi Art. Degard has written four books, is a committee member of The Colour Group, a property developer and a Fellow of The Galileo Commission for the Scientific and Medical Network. She has a Masters in Politics from Edinburgh University and is completing her doctorate in Fine Art in London.
 
-Role: Trustee, Head of Media and Events.  
-  
-<a href="https://www.degard.org">https://www.degard.org</a>
+Role: Trustee, Head of Media and Events.
 </div>
 
 </div>
