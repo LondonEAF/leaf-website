@@ -359,6 +359,23 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
     .statBlockLink {
         font-size: 1.25rem;
     }
+
+    .about_container {
+        display: flex;
+
+        .img_container {
+            max-width: 30%;
+            margin: 5px 25px 50px 0;
+        }
+
+        .img_container img {
+            width: 100%;
+        }
+
+        .img_header {
+            float: left;
+        }
+    }
 }
 
 @media screen and (min-width: 768px) {

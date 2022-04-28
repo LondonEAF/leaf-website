@@ -6,6 +6,8 @@ weight = 0
 
 # **Trustees of the London Education & Art Foundation (LEAF)**
 
+<div class="about_container">
+
 <div class="img_container">
 {{ load_image(path="Paul.jpg")}}
 
@@ -55,7 +57,10 @@ Role: Trustee, Head of Media and Events.
 <a href="https://www.degard.org">https://www.degard.org</a>
 </div>
 
----
+</div>
+
+
+# **Ambassadors of LEAF**
 
 <div class="img_container">
 {{ load_image(path="Sophie.jpg")}}
