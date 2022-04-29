@@ -362,6 +362,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 
     .about_container {
         display: flex;
+        flex-wrap: wrap;
 
         .img_container {
             max-width: 30%;
@@ -374,6 +375,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 
         .img_header {
             float: left;
+            width: 100%;
         }
     }
 }

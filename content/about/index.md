@@ -60,6 +60,8 @@ Role: Trustee, Head of Media and Events.
 
 # **Ambassadors of LEAF**
 
+<div class="about_container">
+
 <div class="img_container">
 {{ load_image(path="Sophie.jpg")}}
 
@@ -119,6 +121,13 @@ Her interests are in the areas of Arts and self-development with the aim to supp
 Summer has an MBA in global Luxury management and graduated from Paris. She is in charge of the fashion department of Paris International Young Artists Association, and the key account manager of Chanel. During her stay in the UK, Summer won a number of national design competitions. As a winner of Chatsworth House design competition, she was chosen by the Douches of Devonshire. She has professional bespoke and fashion design background and luxury management experience.
 </div>
 
+</div>
+
+
+# **Our Team**
+
+<div class="about_container">
+
 <div class="img_container">
 {{ load_image(path="Ayumi.jpg")}}
 
@@ -141,6 +150,8 @@ Ayumi has a Masters degree is Fashion Design from Japan followed by a further 5 
 </div>
 
 Vineta is based in London and part of the administration support for the foundation. She is a certified neurofeedback specialist and her passion is working with children and the youth. She has successfully helped many kids and adults to discover their potential through the brain training. She understands and appreciates the arts as a creative form and its mind healing benefits. Most recently Vineta has used her creative skills and wrote a motivational book for young children which has been supported by an artist illustrator in Sweden.  
+</div>
+
 </div>
 
 
