@@ -121,10 +121,18 @@ Her interests are in the areas of Arts and self-development with the aim to supp
 Summer has an MBA in global Luxury management and graduated from Paris. She is in charge of the fashion department of Paris International Young Artists Association, and the key account manager of Chanel. During her stay in the UK, Summer won a number of national design competitions. As a winner of Chatsworth House design competition, she was chosen by the Douches of Devonshire. She has professional bespoke and fashion design background and luxury management experience.
 </div>
 
+<div class="img_container">
+{{ load_image(path="Blank.png")}}
+<div class="img_header"> </div> </div>
+
+<div class="img_container">
+{{ load_image(path="Blank.png")}}
+<div class="img_header"> </div> </div>
+
 </div>
 
 
-# **Our Team**
+# **Support Team**
 
 <div class="about_container">
 
@@ -189,8 +197,6 @@ Vineta is based in London and part of the administration support for the foundat
 </div>
 
 <div>
-
-
 
 
 # **Logo**
