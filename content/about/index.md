@@ -29,7 +29,7 @@ Role: Chairman of Trustees, Head of Partnerships and Memberships.
 
 <div class="img_header">
 
-## **Andrew**
+## **Mr Andrew**
 **Trustee**  
 **FAIA, FCIPD, FRSA - Expert International Accountant and Legal Advisor**
 </div>
@@ -79,7 +79,7 @@ Sophie also has experience working in marketing and advertising and has worked a
 
 <div class="img_header">
 
-## **Ahmed**
+## **Mr Ahmed**
 **Ambassador**
 </div>
 
@@ -97,7 +97,7 @@ He is also a member of several institutions including:
 
 <div class="img_header">
 
-## **Emilia**
+## **Miss Emilia**
 **Ambassador**
 </div>
 
@@ -112,7 +112,7 @@ Her interests are in the areas of Arts and self-development with the aim to supp
 
 <div class="img_header">
 
-## **Summer**
+## **Miss Summer**
 **Ambassador**
 </div>
 
@@ -124,7 +124,7 @@ Summer has an MBA in global Luxury management and graduated from Paris. She is i
 
 <div class="img_header">
 
-## **Ayumi**
+## **Ms Ayumi**
 **Graphic Designer**
 </div>
 
@@ -136,7 +136,7 @@ Ayumi has a Masters degree is Fashion Design from Japan followed by a further 5 
 
 <div class="img_header">
 
-## **Vineta**
+## **Ms Vineta**
 **Administration Support**
 </div>
 
