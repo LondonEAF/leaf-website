@@ -68,7 +68,7 @@ Role: Trustee, Head of Media and Events.
 <div class="img_header">
 
 ## **Miss Sophie**
-**Ambassador**  
+**Ambassador - Arts, Culture, Events. United Kingdom**  
 **Oxford Graduate in Classics**
 </div>
 
@@ -82,7 +82,7 @@ Sophie also has experience working in marketing and advertising and has worked a
 <div class="img_header">
 
 ## **Mr Ahmed**
-**Ambassador**
+**Ambassador - Arts, Culture. Events. Oman & Middle East**
 </div>
 
 With more than 10 years of experience in the field of management and business, Ahmed has contributed in building professional teams, and developing strategies in one of the largest companies the Middle East. His interests relate to international and Islamic culture and the arts, and is looking forward to working with professional partners between overseas organisations and the LEAF Foundation.
@@ -100,7 +100,7 @@ He is also a member of several institutions including:
 <div class="img_header">
 
 ## **Miss Emilia**
-**Ambassador**
+**Ambassador - Culture, Education, Events. London & Eastern Europe**
 </div>
 
 With over 13 years of experience in sales, business and NLP, Emilia has provided high-level strategies for team building and management, excellent customer service and sales enhancement for UK enterprises and international multi-level marketing organisations.
@@ -115,19 +115,33 @@ Her interests are in the areas of Arts and self-development with the aim to supp
 <div class="img_header">
 
 ## **Miss Summer**
-**Ambassador**
+**Ambassador - Arts, Fashion, Events. Shanghai & China**
 </div>
 
 Summer has an MBA in global Luxury management and graduated from Paris. She is in charge of the fashion department of Paris International Young Artists Association, and the key account manager of Chanel. During her stay in the UK, Summer won a number of national design competitions. As a winner of Chatsworth House design competition, she was chosen by the Douches of Devonshire. She has professional bespoke and fashion design background and luxury management experience.
 </div>
 
 <div class="img_container">
-{{ load_image(path="Blank.png")}}
-<div class="img_header"> </div> </div>
+{{ load_image(path="Mika.jpg")}}
+<div class="img_header">
+
+## **Miss Mika**
+**Ambassador - Education, Culture, Events. Osaka Japan**
+</div>
+
+Mika is a Business and Marketing Postgraduate from London. She gained a good insight into the workings of Languages and Culture when being the Head Of Marketing at London Language Lab, and gaining experience of Art Exhibitions and events at Bloomsbury Gallery London. She also assisted in the planning and running of Summers Camps in both London and at Oxford University. Now back in her native Japan, and full of entrepreneurial energy, Mika is working in bringing educational support to young adults in rural locations, while running her own online business.
+</div>
 
 <div class="img_container">
-{{ load_image(path="Blank.png")}}
-<div class="img_header"> </div> </div>
+{{ load_image(path="Satoshi.jpg")}}
+<div class="img_header">
+
+## **Mr Satoshi**
+**Ambassador - Arts, Culture, Events. L.A. USA**
+</div>
+
+Satoshi is the CEO of Life is Tech! USA. It is a Los Angeles-based EdTech startup best known as the creators of the acclaimed coding education program, Disney Codeillusion. With over 17 years of experience in international business, with a focus on the U.S., UK and Japan, delivering life-changing opportunities to as many people as possible, is what Satoshi lives for. He holds an MBA from Stanford University. He is a Mentor for BLAST School, an incubation program that supports high school students with ideas for solving social issues. Satoshi is also a Chartered Member of the Securities Analysts Association of Japan
+</div>
 
 </div>
 
