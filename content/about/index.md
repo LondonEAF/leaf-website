@@ -82,7 +82,7 @@ Sophie also has experience working in marketing and advertising and has worked a
 <div class="img_header">
 
 ## **Mr Ahmed**
-**Ambassador - Arts, Culture. Events. GCC & Middle East**
+**Ambassador - Arts, Culture, Events. GCC & Middle East**
 </div>
 
 With more than 10 years of experience in the field of management and business, Ahmed has contributed in building professional teams, and developing strategies in one of the largest companies the Middle East. His interests relate to international and Islamic culture and the arts, and is looking forward to working with professional partners between overseas organisations and the LEAF Foundation.
