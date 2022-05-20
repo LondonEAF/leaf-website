@@ -242,6 +242,10 @@ main .toc-item a.active, main .toc-item-child a.active {
     float: left;
 }
 
+.about_container .img_container img {
+    border-radius: 50%;
+}
+
 .pagination {
     display: flex;
     justify-content: center;
