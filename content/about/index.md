@@ -122,17 +122,6 @@ Summer has an MBA in global Luxury management and graduated from Paris. She is i
 </div>
 
 <div class="img_container">
-{{ load_image(path="Mika.jpg")}}
-<div class="img_header">
-
-## **Miss Mika**
-**Ambassador - Education, Culture, Events. Osaka Japan**
-</div>
-
-Mika is a Business and Marketing Postgraduate from London. She gained a good insight into the workings of Languages and Culture when being the Head Of Marketing at London Language Lab, and gaining experience of Art Exhibitions and events at Bloomsbury Gallery London. She also assisted in the planning and running of Summers Camps in both London and at Oxford University. Now back in her native Japan, and full of entrepreneurial energy, Mika is working in bringing educational support to young adults in rural locations, while running her own online business.
-</div>
-
-<div class="img_container">
 {{ load_image(path="Satoshi.jpg")}}
 <div class="img_header">
 
@@ -141,6 +130,17 @@ Mika is a Business and Marketing Postgraduate from London. She gained a good ins
 </div>
 
 Satoshi is the CEO of Life is Tech! USA. It is a Los Angeles-based EdTech startup best known as the creators of the acclaimed coding education program, Disney Codeillusion. With over 17 years of experience in international business, with a focus on the U.S., UK and Japan, delivering life-changing opportunities to as many people as possible, is what Satoshi lives for. He holds an MBA from Stanford University. He is a Mentor for BLAST School, an incubation program that supports high school students with ideas for solving social issues. Satoshi is also a Chartered Member of the Securities Analysts Association of Japan
+</div>
+
+<div class="img_container">
+{{ load_image(path="Mika.jpg")}}
+<div class="img_header">
+
+## **Miss Mika**
+**Ambassador - Education, Culture, Events. Osaka Japan**
+</div>
+
+Mika is a Business and Marketing Postgraduate from London. She gained a good insight into the workings of Languages and Culture when being the Head Of Marketing at London Language Lab, and gaining experience of Art Exhibitions and events at Bloomsbury Gallery London. She also assisted in the planning and running of Summers Camps in both London and at Oxford University. Now back in her native Japan, and full of entrepreneurial energy, Mika is working in bringing educational support to young adults in rural locations, while running her own online business.
 </div>
 
 </div>
