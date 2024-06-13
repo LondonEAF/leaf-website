@@ -63,20 +63,6 @@ Role: Trustee, Head of Media and Events.
 <div class="about_container">
 
 <div class="img_container">
-{{ load_image(path="Sophie.jpg")}}
-
-<div class="img_header">
-
-## **Miss Sophie**
-**Ambassador - Arts, Culture, Events. United Kingdom**  
-**Oxford Graduate in Classics**
-</div>
-
-Sophie is a recent Oxford graduate of Classics. Having studied at Oxford for four years, she specialised in Greek and Roman art and archaeology, and has attended seminars, workshops, and focus groups on artwork from antiquity at the Ashmolean Museum, the British Museum and the British Academy.
-Sophie also has experience working in marketing and advertising and has worked as a gallery invigilator at galleries around London.
-</div>
-
-<div class="img_container">
 {{ load_image(path="Ahmed.jpg")}}
 
 <div class="img_header">
@@ -149,18 +135,6 @@ Mika is a Business and Marketing Postgraduate from London. She gained a good ins
 # **Support Team**
 
 <div class="about_container">
-
-<div class="img_container">
-{{ load_image(path="Ayumi.jpg")}}
-
-<div class="img_header">
-
-## **Ms Ayumi**
-**Graphic Designer**
-</div>
-
-Ayumi has a Masters degree is Fashion Design from Japan followed by a further 5 years’ experience as a designer. She has developed an in-depth knowledge of Adobe Creative Suite and trends prepared colour boards. Ayumi continues to be part of the L.E.A.F. team and assisting in the design of materials that are required from time to time. Ayumi is also fluent in Japanese and enjoys cycling to stay fit in her spare time.
-</div>
 
 <div class="img_container">
 {{ load_image(path="Vineta.jpg")}}
